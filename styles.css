@@ -1,0 +1,128 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    text-align: center;
+    /* background-image: url(https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg); */
+    /* background-size: cover; */
+}
+
+img {
+    width: 90px;
+} 
+.hero-section {
+    background-image: url(https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg);
+    background-size: cover;
+    padding: 20%;
+}
+h1 {
+    background-color: #FCECC9;
+    width:fit-content;
+    margin: auto;
+    border: 3px solid black;
+    opacity: 90%;
+    box-shadow:2px 10px 10px;
+    border-radius: 6px;
+}
+h2 {
+    background-color: #FCB0B3;
+    width:fit-content;
+    margin: 20px auto 0 auto;
+    border: 3px solid black;
+    opacity: 85%;
+    box-shadow:2px 10px 10px;
+    border-radius: 6px;
+}
+.activities-section{
+    /* background: linear-gradient(#7EB2DD, #FCECC9); */
+    /* padding: 0px; */
+    display: flex;
+    /* width: 00px; */
+    /* margin-right: 10px; */
+    justify-content:space-around;
+}
+/* .activities-section p {
+    width: 150px;
+    margin: 100px auto 0 auto;
+} */
+.main-activities-section {
+    background: linear-gradient(#7EB2DD, #FCECC9);
+    padding: 0.009px;
+    /* width: fit-content; */
+    
+}
+.main-activities-section img {
+   height: 80px;
+    border-radius: 50%;
+}
+.description {
+    display: flex;
+    position: relative;
+    bottom: 25px;
+    /* width: 350px; */
+    /* justify-content: space-between; */
+    /* margin-left: 0px; */
+
+}
+#title-3 {
+    /* margin: 30px 36%; */
+    margin-left:25px ;
+    width: 100%;
+}
+.description p {
+    /* width: 100%; */
+    /* margin-top: 0px; */
+}
+.description h4 {
+    /* display: flex; */
+    /* margin-right: 200px; */
+    /* justify-content: space-around; */
+
+    /* right: 0px; */
+    /* justify-items:start; */
+    /* margin-bottom: px; */
+}
+#boudha-desc {
+    /* width: 300px; */
+    margin: 0 10px 0 10px;
+    /* width: 160px; */
+}
+#boudha-desc p{
+    /* width: 300px; */
+    
+    width: 160px;
+    margin: 15px 0 0 10%;
+}
+#thamel-desc p{
+    /* width: 95%; */
+    /* margin: 15px 0 0 40px; */
+    margin: 15px 20px 0 30%;
+}
+#pashu-desc p{
+    margin: 15px 20% 0 20px;
+}
+.card {
+    background-color: #FCB0B3;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+    border: 4px solid grey;
+}
+.desc {
+    /* width: 200px; */
+    /* text-align:justify; */
+    /* width: 160px; */
+     text-align: justify;
+}
+
